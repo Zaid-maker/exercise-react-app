@@ -1,17 +1,17 @@
-import { Box } from '@mui/material'
-import React from 'react'
-import Exercise from '../components/Exercise'
-import HeroBanner from '../components/HeroBanner'
-import SearchExercises from '../components/SearchExercises'
+import { Box } from "@mui/material";
+import React from "react";
+import Exercises from "../components/Exercises";
+import HeroBanner from "../components/HeroBanner";
+import SearchExercises from "../components/SearchExercises";
 
 const Home = () => {
   return (
     <Box>
       <HeroBanner />
       <SearchExercises />
-      <Exercise />
+      <Exercises />
     </Box>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
